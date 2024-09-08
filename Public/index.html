@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../output.css" />
+  </head>
+  <body >
+    
+    <nav
+      class="w-full bg-red-500 py-3 text-white flex items-center justify-around absolute" 
+    >
+      <div class="ml-5">
+        <h1 class="font-bold text-xl">JAOL SYSTEMS</h1>
+      </div>
+
+      <div class="md:w-96">
+        <div class="hidden sm:flex font-semibold justify-around" id="nav-links">
+          <a href="./features/index.html" class="">Features</a>
+          <a href="./help/index.html"class="">Help</a>
+          <a href="./Blog/index.html" class="">Blog</a>
+          <a href="./about-us/index.html" class="">About us</a>
+        </div>
+      </div>
+      <div class="md:hidden" id="nav-links-bar">
+        <button class="bg-white px-2" id="btn-show">a</button>
+        <div class="absolute bg-red-500 border-white border font-medium transition-all rounded-sm shadow-lg right-20 z-30 p-8" id="items">
+          <p class="my-2"><a href="./features/index.html" class="">Features</a></p>
+          <p class="my-2"><a href="./help/index.html" class="">Help</a></p>
+          <p class="my-2"><a href="./Blog/index.html" class="">Blog</a></p>
+          <p class="my-2"><a href="./about-us/index.html" class="">About us</a></p>
+        </div>
+      </div>
+    </nav>
+
+    <div class=" -z-10 top-0 h-screen  flex justify-around items-center border-b">
+        <div class="md:text-start text-center">
+            <h1 class="text-6xl font-bold" >Jaol System</h1>
+            <p class="text-2xl font-medium my-10">Almacena y contabiliza con rapidez</p>
+            <button class="bg-red-500 px-4 py-2 sm:mx-auto mx-0 rounded-md font-semibold text-white"><a href="./help">Saber mas!</a></button>
+        </div>
+        <div class="hidden md:block">
+            <img src="../img/p.svg" width="300" >
+        </div>
+    </div>
+
+    <div class="flex md:justify-around my-7 md:w-auto w-full flex-col md:flex-row items-center " id="rigin">
+        
+    </div>
+
+    <footer id="footer" class=" py-2 bottom-0 bg-red-500 flex justify-evenly text-white font-semibold">
+      
+  </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
